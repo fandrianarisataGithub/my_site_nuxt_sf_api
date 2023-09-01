@@ -1,0 +1,13 @@
+.icon-menu {
+	svg #SVGRepo_iconCarrier{
+    /* Ajoute ici les styles pour l'apparence de l'icône lorsque la souris passe dessus */
+    /* Par exemple, pour changer la couleur en rouge */
+    fill: $light-color
+  }
+		&:hover svg #SVGRepo_iconCarrier{
+			/* Ajoute ici les styles pour l'apparence de l'icône lorsque la souris passe dessus */
+			/* Par exemple, pour changer la couleur en rouge */
+			fill: $hover-color
+		}
+}
+

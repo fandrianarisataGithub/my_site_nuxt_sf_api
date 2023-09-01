@@ -1,0 +1,29 @@
+.bloc-image-and-description{
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  .img-container{
+    width: 40%;
+    border: 1pw solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .img-content{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+  .bref{
+    width: 60%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+  }
+}

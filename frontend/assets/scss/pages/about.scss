@@ -1,0 +1,12 @@
+.page-about{
+  .about-page-tilte{
+    background-image: url(~assets/images/perso/bg-about2.jpg);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

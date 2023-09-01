@@ -1,0 +1,43 @@
+.bloc-header{
+    position: relative;
+    height: 100vh;
+  .bloc-header_heading{
+    padding: 0px 50px 0px 50px;
+    height: 100%;
+    .o-layout{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        .h1{
+          font-size: 6vw;
+          .bloc-title{
+            margin-left: 0;
+            h3{
+              font-size: 6vw;
+            }
+          }
+        }
+    }
+  }
+  &_title{
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    padding-right: 50px;
+    padding-left: 50px;
+    .bloc-header_title_line{
+        font-size: 4rem;
+        display: block;
+        opacity: 1;
+        //transform: translateY(100%) rotateX(-80deg);
+        transform-origin: center top;
+        transform-style: preserve-3d;
+        transition: opacity 0s cubic-bezier(.215,.61,.355,1),transform 0s cubic-bezier(.215,.61,.355,1);
+        span{
+            font-size: 12vw;
+        }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.bloc-left-sticky{
+    display: flex;
+    justify-content: space-between;
+	.left-sticky-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		width: 60%;
+		height: calc(650px * 4);
+		.skills{
+			width: calc(100% - 100px);
+			min-height: auto;
+			height: auto;
+			padding: 25px;
+
+			h3{
+				font-size: 4rem;
+				line-height: 64px;
+			}
+			img{
+				max-width: 100%;
+			}
+		}
+	}
+	.stiky-container{
+		width: 40%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    margin-left: auto;
+		.sticky-content{
+			width: 100%;
+			height: auto;
+			font-size: 32px;
+			text-align: center;
+			padding: 25px;
+		}
+
+	}
+}

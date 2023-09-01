@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+}
+
+.locomotive-style.horizontal{
+  width: 500vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.locomotive-style-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.locomotive-style-big-square{
+  width: 50vw;
+  height: 50vw;
+  background-color: #000;
+}
+
+.locomotive-style-small-square{
+  width: 25vw;
+ height: 25vw;
+  background-color: #000;
+}
+
+
+.locomotive-style-big-image{
+  img{
+	width: 100%;
+	width: 50vw;
+	height: auto;
+	display: block;
+  }
+}
+
+.locomotive-style.horizontal header{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 12.5vw ;
+}
+
+.locomotive-style.horizontal footer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 12.5vw ;
+}
+
+.locomotive-style.horizontal .locomotive-style-section{
+  width: 100vw;
+}
+
+.locomotive-style.vertical .locomotive-style-section {
+  padding-top: 10vw;
+  padding-left: 50px;
+  padding-right: 50px;
+  &.footer{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.locomotive-style.vertical footer {
+  padding-top: 10vw;
+}
+
+.locomotive-style-fade-text{
+  padding: 12.5vw 6.25vw;
+  h2{
+	font-size: 5vw;
+  }
+}

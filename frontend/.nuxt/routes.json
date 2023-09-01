@@ -1,0 +1,44 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_1766bc5d"
+  },
+  {
+    "name": "blogs",
+    "path": "/blogs",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\blogs\\\\index.vue",
+    "chunkName": "pages/blogs/index",
+    "_name": "_57356981"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_49b42520"
+  },
+  {
+    "name": "demo",
+    "path": "/demo",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\demo.vue",
+    "chunkName": "pages/demo",
+    "_name": "_25cf1b43"
+  },
+  {
+    "name": "mes-services",
+    "path": "/mes-services",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\mes-services\\\\index.vue",
+    "chunkName": "pages/mes-services/index",
+    "_name": "_f3db48dc"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_371e9722"
+  }
+]
