@@ -77,6 +77,7 @@ import LocomotiveScroll from '@/LocomotiveScroll/component';
 export default {
   components: {
     LocomotiveScroll
+    // http://fandrianarisataGithub.github.io/my_site_nuxt_sf_api
   }
 }
 </script>
