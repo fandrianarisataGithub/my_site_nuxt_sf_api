@@ -8,7 +8,6 @@ const _7315a94a = () => interopDefault(import('..\\pages\\about.vue' /* webpackC
 const _46c8f018 = () => interopDefault(import('..\\pages\\blogs\\index.vue' /* webpackChunkName: "pages/blogs/index" */))
 const _06cd531d = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
 const _39485cb6 = () => interopDefault(import('..\\pages\\demo.vue' /* webpackChunkName: "pages/demo" */))
-const _8081d32e = () => interopDefault(import('..\\pages\\index-old.vue' /* webpackChunkName: "pages/index-old" */))
 const _443069e0 = () => interopDefault(import('..\\pages\\mes-projets\\index.vue' /* webpackChunkName: "pages/mes-projets/index" */))
 const _4f55a5bf = () => interopDefault(import('..\\pages\\mes-services\\index.vue' /* webpackChunkName: "pages/mes-services/index" */))
 const _da64f7e2 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
@@ -40,10 +39,6 @@ export const routerOptions = {
     path: "/demo",
     component: _39485cb6,
     name: "demo"
-  }, {
-    path: "/index-old",
-    component: _8081d32e,
-    name: "index-old"
   }, {
     path: "/mes-projets",
     component: _443069e0,

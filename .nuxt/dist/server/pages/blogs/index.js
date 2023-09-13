@@ -8,7 +8,7 @@ module.exports = __webpack_require__.p + "img/baobab.7488da9.PNG";
 
 /***/ }),
 
-/***/ 61:
+/***/ 60:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -64,7 +64,7 @@
         </div>
       </div>
       <footer data-scroll-section>
-        <nuxt-link to="/horizontal-scroll/">
+        <nuxt-link to="/">
           Go to Horizontal Scroll
         </nuxt-link>
       </footer>

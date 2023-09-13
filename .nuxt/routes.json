@@ -3,48 +3,49 @@
     "name": "about",
     "path": "/about",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_7315a94a"
   },
   {
     "name": "blogs",
     "path": "/blogs",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\blogs\\\\index.vue",
-    "chunkName": "pages/blogs/index"
+    "chunkName": "pages/blogs/index",
+    "_name": "_46c8f018"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_06cd531d"
   },
   {
     "name": "demo",
     "path": "/demo",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\demo.vue",
-    "chunkName": "pages/demo"
-  },
-  {
-    "name": "index-old",
-    "path": "/index-old",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\index-old.vue",
-    "chunkName": "pages/index-old"
+    "chunkName": "pages/demo",
+    "_name": "_39485cb6"
   },
   {
     "name": "mes-projets",
     "path": "/mes-projets",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\mes-projets\\\\index.vue",
-    "chunkName": "pages/mes-projets/index"
+    "chunkName": "pages/mes-projets/index",
+    "_name": "_443069e0"
   },
   {
     "name": "mes-services",
     "path": "/mes-services",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\mes-services\\\\index.vue",
-    "chunkName": "pages/mes-services/index"
+    "chunkName": "pages/mes-services/index",
+    "_name": "_4f55a5bf"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_da64f7e2"
   }
 ]

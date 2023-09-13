@@ -43,7 +43,7 @@ module.exports =
 /******/
 /******/ 		// "0" is the signal for "already loaded"
 /******/ 		if(installedChunks[chunkId] !== 0) {
-/******/ 			var chunk = require("./" + ({"1":"components/nuxt-logo","2":"components/tutorial","3":"pages/about","4":"pages/blogs/index","5":"pages/contact","6":"pages/demo","7":"pages/index","8":"pages/index-old","9":"pages/mes-projets/index","10":"pages/mes-services/index"}[chunkId]||chunkId) + ".js");
+/******/ 			var chunk = require("./" + ({"1":"components/nuxt-logo","2":"components/tutorial","3":"pages/about","4":"pages/blogs/index","5":"pages/contact","6":"pages/demo","7":"pages/index","8":"pages/mes-projets/index","9":"pages/mes-services/index"}[chunkId]||chunkId) + ".js");
 /******/ 			var moreModules = chunk.modules, chunkIds = chunk.ids;
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				modules[moduleId] = moreModules[moduleId];
@@ -2306,14 +2306,13 @@ function shouldScrollToTop(route) {
 
 
 
-const _7315a94a = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 3).then(__webpack_require__.bind(null, 60)));
-const _46c8f018 = () => interopDefault(__webpack_require__.e(/* import() | pages/blogs/index */ 4).then(__webpack_require__.bind(null, 61)));
-const _06cd531d = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 5).then(__webpack_require__.bind(null, 62)));
-const _39485cb6 = () => interopDefault(__webpack_require__.e(/* import() | pages/demo */ 6).then(__webpack_require__.bind(null, 63)));
-const _8081d32e = () => interopDefault(__webpack_require__.e(/* import() | pages/index-old */ 8).then(__webpack_require__.bind(null, 64)));
-const _443069e0 = () => interopDefault(__webpack_require__.e(/* import() | pages/mes-projets/index */ 9).then(__webpack_require__.bind(null, 68)));
-const _4f55a5bf = () => interopDefault(__webpack_require__.e(/* import() | pages/mes-services/index */ 10).then(__webpack_require__.bind(null, 65)));
-const _da64f7e2 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 7).then(__webpack_require__.bind(null, 66)));
+const _7315a94a = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 3).then(__webpack_require__.bind(null, 59)));
+const _46c8f018 = () => interopDefault(__webpack_require__.e(/* import() | pages/blogs/index */ 4).then(__webpack_require__.bind(null, 60)));
+const _06cd531d = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 5).then(__webpack_require__.bind(null, 61)));
+const _39485cb6 = () => interopDefault(__webpack_require__.e(/* import() | pages/demo */ 6).then(__webpack_require__.bind(null, 62)));
+const _443069e0 = () => interopDefault(__webpack_require__.e(/* import() | pages/mes-projets/index */ 8).then(__webpack_require__.bind(null, 66)));
+const _4f55a5bf = () => interopDefault(__webpack_require__.e(/* import() | pages/mes-services/index */ 9).then(__webpack_require__.bind(null, 63)));
+const _da64f7e2 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 7).then(__webpack_require__.bind(null, 64)));
 
 const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
@@ -2339,10 +2338,6 @@ const routerOptions = {
     path: "/demo",
     component: _39485cb6,
     name: "demo"
-  }, {
-    path: "/index-old",
-    component: _8081d32e,
-    name: "index-old"
   }, {
     path: "/mes-projets",
     component: _443069e0,
@@ -3139,8 +3134,8 @@ function mergeProperty(storeModule, moduleData, property) {
   }
 }
 // CONCATENATED MODULE: ./.nuxt/components/index.js
-const NuxtLogo = () => __webpack_require__.e(/* import() | components/nuxt-logo */ 1).then(__webpack_require__.bind(null, 69)).then(c => wrapFunctional(c.default || c));
-const Tutorial = () => __webpack_require__.e(/* import() | components/tutorial */ 2).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c));
+const NuxtLogo = () => __webpack_require__.e(/* import() | components/nuxt-logo */ 1).then(__webpack_require__.bind(null, 67)).then(c => wrapFunctional(c.default || c));
+const Tutorial = () => __webpack_require__.e(/* import() | components/tutorial */ 2).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c));
 const BlocsAnimateWord = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 29)).then(c => wrapFunctional(c.default || c));
 const BlocsCarousel = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c));
 const BlocsTitle = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 26)).then(c => wrapFunctional(c.default || c));
