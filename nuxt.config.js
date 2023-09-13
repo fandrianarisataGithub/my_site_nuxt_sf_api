@@ -1,5 +1,8 @@
 export default {
   target: 'static',
+  router: {
+    base: '/my_site_nuxt_sf_api/'
+  },
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	ssr: true,
   env: {
