@@ -4,14 +4,14 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _334d331c = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _783eade2 = () => interopDefault(import('..\\pages\\blogs\\index.vue' /* webpackChunkName: "pages/blogs/index" */))
-const _d16c9f22 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _0def50a4 = () => interopDefault(import('..\\pages\\demo.vue' /* webpackChunkName: "pages/demo" */))
-const _2299673b = () => interopDefault(import('..\\pages\\index-old.vue' /* webpackChunkName: "pages/index-old" */))
-const _67e6467e = () => interopDefault(import('..\\pages\\mes-projets\\index.vue' /* webpackChunkName: "pages/mes-projets/index" */))
-const _05269811 = () => interopDefault(import('..\\pages\\mes-services\\index.vue' /* webpackChunkName: "pages/mes-services/index" */))
-const _53050de1 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _7315a94a = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _46c8f018 = () => interopDefault(import('..\\pages\\blogs\\index.vue' /* webpackChunkName: "pages/blogs/index" */))
+const _06cd531d = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _39485cb6 = () => interopDefault(import('..\\pages\\demo.vue' /* webpackChunkName: "pages/demo" */))
+const _8081d32e = () => interopDefault(import('..\\pages\\index-old.vue' /* webpackChunkName: "pages/index-old" */))
+const _443069e0 = () => interopDefault(import('..\\pages\\mes-projets\\index.vue' /* webpackChunkName: "pages/mes-projets/index" */))
+const _4f55a5bf = () => interopDefault(import('..\\pages\\mes-services\\index.vue' /* webpackChunkName: "pages/mes-services/index" */))
+const _da64f7e2 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +26,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _334d331c,
+    component: _7315a94a,
     name: "about"
   }, {
     path: "/blogs",
-    component: _783eade2,
+    component: _46c8f018,
     name: "blogs"
   }, {
     path: "/contact",
-    component: _d16c9f22,
+    component: _06cd531d,
     name: "contact"
   }, {
     path: "/demo",
-    component: _0def50a4,
+    component: _39485cb6,
     name: "demo"
   }, {
     path: "/index-old",
-    component: _2299673b,
+    component: _8081d32e,
     name: "index-old"
   }, {
     path: "/mes-projets",
-    component: _67e6467e,
+    component: _443069e0,
     name: "mes-projets"
   }, {
     path: "/mes-services",
-    component: _05269811,
+    component: _4f55a5bf,
     name: "mes-services"
   }, {
     path: "/",
-    component: _53050de1,
+    component: _da64f7e2,
     name: "index"
   }],
 

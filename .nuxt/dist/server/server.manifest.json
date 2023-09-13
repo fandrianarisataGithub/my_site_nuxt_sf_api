@@ -1,0 +1,29 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/nuxt-logo.js": "components/nuxt-logo.js",
+    "components/tutorial.js": "components/tutorial.js",
+    "pages/about.js": "pages/about.js",
+    "pages/blogs/index.js": "pages/blogs/index.js",
+    "pages/contact.js": "pages/contact.js",
+    "pages/demo.js": "pages/demo.js",
+    "pages/index-old.js": "pages/index-old.js",
+    "pages/index.js": "pages/index.js",
+    "pages/mes-projets/index.js": "pages/mes-projets/index.js",
+    "pages/mes-services/index.js": "pages/mes-services/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/nuxt-logo.js": "components/nuxt-logo.js.map",
+    "components/tutorial.js": "components/tutorial.js.map",
+    "pages/about.js": "pages/about.js.map",
+    "pages/blogs/index.js": "pages/blogs/index.js.map",
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/demo.js": "pages/demo.js.map",
+    "pages/index-old.js": "pages/index-old.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/mes-projets/index.js": "pages/mes-projets/index.js.map",
+    "pages/mes-services/index.js": "pages/mes-services/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
