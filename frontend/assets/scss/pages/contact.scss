@@ -1,0 +1,109 @@
+.page-contact{
+	.contact-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0px 100px;
+      .part-contact{
+
+        width: 50%;
+        &.gradient{
+          background-image: linear-gradient(to right, #FFB147, #00C675);
+          padding: 50px;
+          .title-gradient{
+            text-align: center;
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: bold;
+          }
+          form{
+            .form-line{
+              display: flex;
+              justify-content: space-between;
+              .btn-large{
+                width: 50%;
+              }
+              .form-group{
+                width: 50%;
+                &.move-25-left{
+                  margin-left: 25px;
+                }
+                input, textarea{
+                  border: none;
+                  box-shadow: none;
+                  outline: none;
+                  background-color: transparent;
+                  background: transparent;
+                  margin-top: 25px;
+                  margin-bottom: 25px;
+                  resize: none;
+                  width: 100%;
+                  border-bottom: 2px solid rgba(255,255,255,0.3);
+                  &:focus{
+                    border-color: $default-color
+                  }
+                }
+                input{
+                  height: 40px;
+                }
+                textarea{
+                  height: 150px;
+                }
+                &.for-textarea{
+                  width: 100%;
+                  textarea{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .adress-container{
+          .title-contact{
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 50px;
+          }
+          .full-adress{
+            margin-bottom: 50px;
+            font-size: 25px;
+            line-height: 25px;
+          }
+
+        }
+        .contact-phone{
+          .title-contact{
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 50px;
+            font-weight: bold;
+          }
+          .full-adress{
+            margin-bottom: 50px;
+            font-size: 25px;
+            line-height: 25px;
+            font-weight: bold;
+          }
+          .social-adress{
+            ul{
+              display: flex;
+              li{
+                &:not(:first-child){
+                  margin-left: 25px;
+                }
+                a{
+                  color: $default-color;
+                  font-size: 20px;
+                  line-height: 20px;
+
+                  &:hover{
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+}

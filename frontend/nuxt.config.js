@@ -1,6 +1,13 @@
 export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	ssr: true,
+  env: {
+		storageUrl: process.env.STORAGE_URL,
+
+		baseURL:  process.env.API_BASE_URL || 'http://localhost:3000',
+
+		frontBaseURL:  process.env.BASE_URL
+	},
 	head: {
 		title: 'my_site_nuxt',
 		htmlAttrs: {
@@ -40,6 +47,7 @@ export default {
 	// Modules: https://go.nuxtjs.dev/config-modules
 	modules: [
 		'@nuxtjs/google-fonts',
+		'@nuxtjs/axios'
 	],
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build

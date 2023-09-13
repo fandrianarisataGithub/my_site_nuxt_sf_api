@@ -199,7 +199,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {}
+      env: {"storageUrl":"http://localhost:8000/","baseURL":"http://localhost:8000/api/","frontBaseURL":"http://localhost:3000/"}
     }
     // Only set once
 

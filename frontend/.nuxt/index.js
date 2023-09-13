@@ -13,8 +13,9 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_57e30ddf from 'nuxt_plugin_plugin_57e30ddf' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_fontawesome_4cbf0244 from 'nuxt_plugin_fontawesome_4cbf0244' // Source: .\\fontawesome.js (mode: 'all')
+import nuxt_plugin_plugin_375ba486 from 'nuxt_plugin_plugin_375ba486' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_c69d9cae from 'nuxt_plugin_axios_c69d9cae' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_fontawesome_7d7b622b from 'nuxt_plugin_fontawesome_7d7b622b' // Source: .\\fontawesome.js (mode: 'all')
 import nuxt_plugin_locomotivescroll_785eec6f from 'nuxt_plugin_locomotivescroll_785eec6f' // Source: ..\\plugins\\locomotive-scroll (mode: 'client')
 import nuxt_plugin_blocs_35553a42 from 'nuxt_plugin_blocs_35553a42' // Source: ..\\plugins\\blocs (mode: 'all')
 import nuxt_plugin_vueagile_726cdbff from 'nuxt_plugin_vueagile_726cdbff' // Source: ..\\plugins\\vue-agile (mode: 'client')
@@ -215,12 +216,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_57e30ddf === 'function') {
-    await nuxt_plugin_plugin_57e30ddf(app.context, inject)
+  if (typeof nuxt_plugin_plugin_375ba486 === 'function') {
+    await nuxt_plugin_plugin_375ba486(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_fontawesome_4cbf0244 === 'function') {
-    await nuxt_plugin_fontawesome_4cbf0244(app.context, inject)
+  if (typeof nuxt_plugin_axios_c69d9cae === 'function') {
+    await nuxt_plugin_axios_c69d9cae(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_fontawesome_7d7b622b === 'function') {
+    await nuxt_plugin_fontawesome_7d7b622b(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_locomotivescroll_785eec6f === 'function') {

@@ -1,0 +1,33 @@
+.page-service {
+    .list-specialities{
+        padding-left: 100px;
+        padding-right: 100px;
+        list-style: disc !important;
+        li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+
+            &:not(:last-child){
+                border-bottom: 1px solid rgba(0, 198, 117, 0.2);
+            }
+            .title-gradient{
+                font-size: 32px;
+                line-height: 32px;
+                font-weight: bold;
+                background: linear-gradient(to right, #FFB147, #00C675);
+                -webkit-background-clip: text;
+                color: transparent;
+                padding-left: 100px;
+                flex-shrink: 1;
+            }
+            .speciality-description{
+                flex-shrink: 2;
+                width: 60%;
+            }
+        }
+    }
+}
+

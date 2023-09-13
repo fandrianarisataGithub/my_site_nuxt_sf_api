@@ -2,43 +2,49 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_1766bc5d"
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
   },
   {
     "name": "blogs",
     "path": "/blogs",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\blogs\\\\index.vue",
-    "chunkName": "pages/blogs/index",
-    "_name": "_57356981"
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\blogs\\\\index.vue",
+    "chunkName": "pages/blogs/index"
   },
   {
     "name": "contact",
     "path": "/contact",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_49b42520"
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact"
   },
   {
     "name": "demo",
     "path": "/demo",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\demo.vue",
-    "chunkName": "pages/demo",
-    "_name": "_25cf1b43"
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\demo.vue",
+    "chunkName": "pages/demo"
+  },
+  {
+    "name": "index-old",
+    "path": "/index-old",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\index-old.vue",
+    "chunkName": "pages/index-old"
+  },
+  {
+    "name": "mes-projets",
+    "path": "/mes-projets",
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\mes-projets\\\\index.vue",
+    "chunkName": "pages/mes-projets/index"
   },
   {
     "name": "mes-services",
     "path": "/mes-services",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\mes-services\\\\index.vue",
-    "chunkName": "pages/mes-services/index",
-    "_name": "_f3db48dc"
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\mes-services\\\\index.vue",
+    "chunkName": "pages/mes-services/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_371e9722"
+    "component": "D:\\\\Travaux\\\\Perso\\\\my_site_nuxt\\\\my_site_nuxt_sf_api\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

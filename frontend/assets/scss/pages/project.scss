@@ -1,0 +1,87 @@
+.page-project {
+  .list-recommand {
+    width: calc(100% - 200px);
+    min-height: 500px;
+    margin-top: 250px;
+    background-image: linear-gradient(to right, #ffb147, #00c675);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    .top-recommand {
+      margin-bottom: 50px;
+      margin-top: 50px;
+      color: white;
+      .title-recommand {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+      }
+      .big-title-testimonial {
+        font-size: 32px;
+        line-height: 32px;
+        margin-top: 25px;
+        text-align: center;
+      }
+    }
+
+    .slide-recommand {
+        max-width: 100%;
+        .bloc-agile{
+          max-width: 100%;
+          .agile{
+            width: 100%;
+            height: 450px;
+            max-width: 100%;
+            position: relative;
+            .agile__actions{
+              padding-left: 100px;
+              padding-right: 100px;
+              position: absolute;
+              bottom: 50px;
+
+              right: 100px;
+              button{
+                color: white;
+              }
+            }
+            .agile__list{
+              height: 100%;
+              max-width: 100%;
+              img{
+                width: 300px;
+              }
+              .unite-slide{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                .image{
+                  width: 50%;
+                  display: flex;
+                  justify-content: center;
+                }
+                .recommandation{
+                  width: 50%;
+                  display: flex;
+                  justify-content: center;
+                  flex-direction: column;
+                  .text{
+                    font-size: 25px;
+                    line-height: 25px;
+                    width: 75%;
+                    margin-bottom: 25px;
+                  }
+                  .name-rec{
+                    margin-bottom: 25px;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+    }
+  }
+}

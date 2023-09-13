@@ -15,29 +15,32 @@
     <div class="locomotive-style vertical page-home">
       <div class="bloc-introduction" data-scroll-section>
         <div class="bloc-image-and-description">
-          <div class="img-container">
-            <div class="img-content">
-                <img
-                src="~/assets/images/perso/za.jpg"
-                alt="sata fenitriniaina feni"
-                />
-            </div>
-            <h3 class="description">DEV VUE-NUXT-SYMFONY</h3>
-          </div>
           <div class="bref">
             <div class="my-name" data-scroll>
-              <h1>Je suis Sata Fenitriniaina.</h1>
+              <h1>Je suis Fenitra.</h1>
+              <h2>Développeur Vue/Nuxt</h2>
+              <h2>Développeur Symfony</h2>
+              <a href="#" class="link-contact">Contactez-moi</a>
+              <div class="phones">
+                <a href="tel:+261325109013" class="btn btn-contact">
+                    <fa :icon="['fas', 'phone']" />
+                    <span>+261 32 51 090 13</span>
+                </a>
+                <a href="mailto:fandrianarisata2@gmail.com">
+                    <fa :icon="['fas', 'envelope']" />
+                    <span>fandrianarisata2@gmail.com</span>
+                </a>
+              </div>
             </div>
-            <h2>
-              I'm a Product Designer working remotely from 24°C Dublin, Ireland.
-            </h2>
-            <h3>
-              Over the past 12+ years, I've worked in various areas of digital
-              design, including front-end development, email, marketing, and app
-              UI/UX. I'm proud to have worn many hats. These days, I focus on
-              building Help Scout's knowledge base and AI tools as a Senior
-              Product Designer.
-            </h3>
+          </div>
+          <div class="img-container">
+            <div class="img-content">
+              <img
+                src="~/assets/images/perso/home.png"
+                alt="sata fenitriniaina feni"
+              />
+            </div>
+            <h3 class="description">DEV VUE-NUXT-SYMFONY</h3>
           </div>
         </div>
       </div>
@@ -47,3 +50,8 @@
     </div>
   </LocomotiveScroll>
 </template>
+<script>
+export default {
+  async mounted() {},
+};
+</script>
