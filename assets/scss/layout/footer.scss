@@ -51,6 +51,12 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
+      li a {
+        svg{
+          width: 20px;
+          height: 20px;
+        }
+      }
     }
   }
 

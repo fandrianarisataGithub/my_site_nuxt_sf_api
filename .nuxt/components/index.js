@@ -1,12 +1,12 @@
-export const NuxtLogo = () => import('../..\\components\\NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
-export const Tutorial = () => import('../..\\components\\Tutorial.vue' /* webpackChunkName: "components/tutorial" */).then(c => wrapFunctional(c.default || c))
-export const BlocsAnimateWord = () => import('../..\\components\\blocs\\animateWord.vue' /* webpackChunkName: "components/blocs-animate-word" */).then(c => wrapFunctional(c.default || c))
-export const BlocsCarousel = () => import('../..\\components\\blocs\\carousel.vue' /* webpackChunkName: "components/blocs-carousel" */).then(c => wrapFunctional(c.default || c))
-export const BlocsTitle = () => import('../..\\components\\blocs\\title.vue' /* webpackChunkName: "components/blocs-title" */).then(c => wrapFunctional(c.default || c))
-export const ElementsMenu = () => import('../..\\components\\elements\\menu.vue' /* webpackChunkName: "components/elements-menu" */).then(c => wrapFunctional(c.default || c))
-export const ElementsSvg = () => import('../..\\components\\elements\\svg.vue' /* webpackChunkName: "components/elements-svg" */).then(c => wrapFunctional(c.default || c))
-export const LayoutsFooter = () => import('../..\\components\\layouts\\footer.vue' /* webpackChunkName: "components/layouts-footer" */).then(c => wrapFunctional(c.default || c))
-export const LayoutsHeader = () => import('../..\\components\\layouts\\header.vue' /* webpackChunkName: "components/layouts-header" */).then(c => wrapFunctional(c.default || c))
+export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
+export { default as Tutorial } from '../..\\components\\Tutorial.vue'
+export { default as BlocsAnimateWord } from '../..\\components\\blocs\\animateWord.vue'
+export { default as BlocsCarousel } from '../..\\components\\blocs\\carousel.vue'
+export { default as BlocsTitle } from '../..\\components\\blocs\\title.vue'
+export { default as ElementsMenu } from '../..\\components\\elements\\menu.vue'
+export { default as ElementsSvg } from '../..\\components\\elements\\svg.vue'
+export { default as LayoutsFooter } from '../..\\components\\layouts\\footer.vue'
+export { default as LayoutsHeader } from '../..\\components\\layouts\\header.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
