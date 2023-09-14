@@ -1,10 +1,10 @@
 export { default as NuxtLogo } from '../..\\components\\NuxtLogo.vue'
 export { default as Tutorial } from '../..\\components\\Tutorial.vue'
-export { default as ElementsMenu } from '../..\\components\\elements\\menu.vue'
-export { default as ElementsSvg } from '../..\\components\\elements\\svg.vue'
 export { default as BlocsAnimateWord } from '../..\\components\\blocs\\animateWord.vue'
 export { default as BlocsCarousel } from '../..\\components\\blocs\\carousel.vue'
 export { default as BlocsTitle } from '../..\\components\\blocs\\title.vue'
+export { default as ElementsMenu } from '../..\\components\\elements\\menu.vue'
+export { default as ElementsSvg } from '../..\\components\\elements\\svg.vue'
 export { default as LayoutsFooter } from '../..\\components\\layouts\\footer.vue'
 export { default as LayoutsHeader } from '../..\\components\\layouts\\header.vue'
 

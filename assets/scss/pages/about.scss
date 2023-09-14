@@ -56,6 +56,10 @@
                             position: relative;
                             cursor: pointer;
                             color: $default-color;
+                            svg{
+                              width: 16px;
+                              height: 16px;
+                            }
                             span{
                                 margin-left: 30px
                             };
@@ -201,6 +205,10 @@
                 font-size: 32px;
                 position: relative;
                 z-index: 14;
+                svg{
+                  width: 40px;
+                  height: 40px;
+                }
                 &:hover{
                     cursor: pointer;
                 }
@@ -236,6 +244,10 @@
                 animation-duration: .8s;
                 animation-name: clignoter;
                 animation-iteration-count: infinite;
+                svg{
+                  width: 40px;
+                  height: 40px;
+                }
             }
             &:hover{
                 cursor: pointer;
