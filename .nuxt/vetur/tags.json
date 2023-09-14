@@ -5,6 +5,12 @@
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },
+  "ElementsMenu": {
+    "description": "Auto imported from components/elements/menu.vue"
+  },
+  "ElementsSvg": {
+    "description": "Auto imported from components/elements/svg.vue"
+  },
   "BlocsAnimateWord": {
     "description": "Auto imported from components/blocs/animateWord.vue"
   },
@@ -13,12 +19,6 @@
   },
   "BlocsTitle": {
     "description": "Auto imported from components/blocs/title.vue"
-  },
-  "ElementsMenu": {
-    "description": "Auto imported from components/elements/menu.vue"
-  },
-  "ElementsSvg": {
-    "description": "Auto imported from components/elements/svg.vue"
   },
   "LayoutsFooter": {
     "description": "Auto imported from components/layouts/footer.vue"
