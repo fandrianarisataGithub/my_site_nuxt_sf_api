@@ -25,11 +25,11 @@ Demo locomotive scroll sur : https://locomotivemtl.github.io/locomotive-scroll/
 Après avoir cloner le code :
 
 ```bash
-  npm install / yarn 
+  npm install
 ```
 Pour le lancement : 
 
 ```bash
-    npm run dev / yarn dev
+    npm run dev
 ```
     
